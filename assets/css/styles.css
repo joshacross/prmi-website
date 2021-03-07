@@ -28,6 +28,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: var(--primary-color);
 }
 
 header a{
@@ -124,6 +129,7 @@ nav ul li:hover .drop-down {
     background-size: cover;
     height: 1000px;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .hero.relative {
