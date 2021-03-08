@@ -35,18 +35,6 @@ header {
     background-color: var(--primary-color);
 }
 
-header a{
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-header a:hover {
-    color: var(--tertiary-color);
-    .nav-child {
-        visibility: visibile;
-    }
-}
-
 .logo-section {
     width: 100%;
     padding: 1%;
@@ -68,9 +56,9 @@ header a:hover {
     color: var(--secondary-color);
     text-decoration: none;
     background-color: var(--button-color);
-    padding: 30px 100px 30px 30px;
+    padding: 30px 70px 30px 30px;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px rgb(39, 38, 38, .25);
+    box-shadow: 0px 0px 15px rgba(39, 38, 38, .25);
 }
 
 .originator-btn:hover {
@@ -80,6 +68,15 @@ header a:hover {
 
 .originator-btn h3 {
     width: 70%;
+}
+
+header a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--tertiary-color);
 }
 
 nav {
@@ -96,7 +93,7 @@ nav ul {
     display: inline;
     text-decoration: none;
     margin: 1%;
-    padding: .5% 3%;
+    padding: .5% 1%;
     text-align: center;
 }
 
@@ -106,10 +103,17 @@ nav ul {
     flex-wrap: wrap;
     display: none;
     text-decoration: none;
+    position: absolute;
 }
 
 nav ul li:hover .drop-down {
     display:block;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: var(--button-color);
+    color: var(--secondary-color);
+    text-align: left;
+    padding: .5%;
 }
 
 .nav-child a {
