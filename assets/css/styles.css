@@ -48,9 +48,9 @@ header {
 }
 
 .originator-btn {
-    position: fixed;
-    top: 3%;
-    right: 5%;
+    position: absolute;
+    top: 20%;
+    left: 75%;
 }
 
 .originator-btn {
