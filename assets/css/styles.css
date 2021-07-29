@@ -146,6 +146,18 @@ nav ul li:hover .drop-down {
     top: 1000px;
 }
 
+.product-over-text {
+    margin: 20px 60px
+}
+
+.product-overview-text p {
+    margin: 20px 0
+}
+
+
+.social-links {
+    margin: 20px 0,
+}
 
 
 
